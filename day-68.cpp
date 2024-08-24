@@ -1,4 +1,4 @@
-//leetcode -144(binary tree preorder traversal)
+//leetcode -144(binary tree postorder traversal)
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
