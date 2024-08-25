@@ -56,7 +56,7 @@ void inorder(TreeNode* node , vector<int> &ans){
 //******************************************************************************************************************************* another solution**************************************************************************//
 bool issametree(treeNode* p, Treenode* q){
   if (p==NULL && q==NULL) return true;
-     if (p==NULL || q==NULL) return true;
+     if (p==NULL || q==NULL) return false;
 
   return (p->val == q->val && issametree( p->left , q->left)&& issametree(p->right,q->right) );
 }
